@@ -17,7 +17,8 @@ Steps to execute:
 3. execute "docker-compose up -d"
 
 Use mongodb compass to connect to mongodb and add data to the collections (connections string : mongodb://root:root@localhost:27017 )
-the password can be changed in the .env file
+The password can be changed in the .env file. 
+
 A sample file is also attached to upload to mongo db
 
 After the data is loaded in mongodb, we can see the change in the elastic search by putting "http://localhost:9200/_cat/indices?v" in the browser
